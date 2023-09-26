@@ -1,12 +1,19 @@
-.c-card-circle{
-    text-align: center;
-    width: max-content;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --color-light: #FFFFFF;
+
+    --color-text-dark: #666666;
+    --color-text-darker: #333333;
+
+    --color-blue-1: #D9ECF3;
+    --color-blue-2: #91C7DC;
+    --color-blue-3: #46B6D2;
+    --color-blue-4: #007EAE;
+
+    --font-stack: 'Open Sans', sans-serif;
 }
 
-.c-card-circle__img{
-    border-radius: 50%;
-    text-align: center;
-}
 
 .c-card-circle__text{
     color: gray;
