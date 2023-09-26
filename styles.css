@@ -14,13 +14,25 @@
     --font-stack: 'Open Sans', sans-serif;
 }
 
-
-.c-card-circle__text{
-    color: gray;
+.c-circled{
+    background-color: var(--color-blue-1);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
 
-.c-title-4{
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
+.c-card-circle{
+    text-align: center;
+    width: max-content;
+    font-family: var(--font-stack);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-card-circle__img{
+    border-radius: 50%;
+}
+
+.c-card-circle__text{
+    color: var(--color-text-dark);
 }
