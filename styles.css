@@ -17,6 +17,10 @@
     --font-size-3: 28px;
 }
 
+body {
+    margin: 0;
+}
+
 .l-columns {
     display: grid;
     grid-template-columns:repeat(1,1fr);
