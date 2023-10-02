@@ -244,7 +244,7 @@ body {
     font-weight: bolder;
 }
 
-.l-columns{
+/* .l-columns{
     display: grid;
     grid-template-columns:repeat(1,1fr);
 }
@@ -252,7 +252,7 @@ body {
 .l-columns--4{
     grid-template-columns:repeat(4,1fr);
     padding: 3% 10% 3% 10%;
-}
+} */
 
 .c-needs__img{
     height: 50px;
@@ -282,10 +282,10 @@ body {
     text-decoration: none;
 }
 
-.c-title{
+/* .c-title{
     text-align: center;
     font-weight: bolder;
     font-family: 'Open Sans';
     font-size: 24px;
     margin-bottom: 20px;
-}
+} */
