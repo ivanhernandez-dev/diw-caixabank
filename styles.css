@@ -11,6 +11,8 @@
     --color-blue-3: #46B6D2;
     --color-blue-4: #007EAE;
 
+    --color-box-shadow: #c0c0c0;
+
     --font-stack: 'Open Sans', sans-serif;
     --font-size-1: 32px;
     --font-size-2: 30px;
@@ -237,4 +239,53 @@ body {
 .c-card__image{
     border-radius: 15px;
     margin-right: 40px;
+}.c-needs__text{
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.l-columns{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+}
+
+.l-columns--4{
+    grid-template-columns:repeat(4,1fr);
+    padding: 3% 10% 3% 10%;
+}
+
+.c-needs__img{
+    height: 50px;
+    width: 50px;
+
+    padding: 10px;
+}
+
+.c-needs__card{
+    font-family: 'Open Sans';
+    font-size: 16px;
+
+    display:flex;
+    align-items: center;
+    width: auto;
+
+    height: 90px;
+    margin-right: 10px;
+
+    padding: 10px;
+    box-shadow: 1px 5px 1px 1px var(--color-box-shadow);
+    border-radius: 6px;
+}
+
+.c-button{
+    color: var(--color-blue-4);
+    text-decoration: none;
+}
+
+.c-title{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    margin-bottom: 20px;
 }
