@@ -33,7 +33,7 @@ body {
 
 .l-columns--2{
     grid-template-columns:repeat(2,1fr);
-    margin: 0 15% 0 15%;
+    margin: 3% 5% 3% 5%;
 }
 
 .l-columns--3{
