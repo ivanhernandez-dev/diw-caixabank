@@ -48,8 +48,8 @@ body {
 
 .c-circled-cards{
     background-color: var(--color-blue-1);
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 95% 5%;
+    border-bottom-left-radius: 95% 5%;
     padding-top: 20px;
 }
 
@@ -154,4 +154,37 @@ body {
 
 .c-interest__container__text {
     position: absolute;
+}
+
+.c-card-info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.c-card__text{
+    font-family: var(--font-stack);
+    font-size: 16px;
+    color: var(--color-text-dark);
+}
+
+.c-card-info__title{
+    font-family: var(--font-stack);
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color-text-darker);
+}
+
+.c-card-info__image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.c-card-info__link{
+    font-family: var(--font-stack);
+    color: var(--color-blue-4);
+    font-size: 16px;
 }
