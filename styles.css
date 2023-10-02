@@ -190,6 +190,12 @@ body {
     color: var(--color-blue-4);
     font-size: 16px;
 }
+
+.c-info-cards{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .c-card{
     border-radius: 10px;
     --c-card-border-color:var(--color-text-dark);
