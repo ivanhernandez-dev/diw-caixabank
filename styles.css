@@ -38,7 +38,7 @@ body {
 
 .l-columns--3{
     grid-template-columns:repeat(3,1fr);
-    margin: 0 20% 0 20%;
+    margin: 3% 20% 3% 20%;
 }
 
 .l-columns--4{
