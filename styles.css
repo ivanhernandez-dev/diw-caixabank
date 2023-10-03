@@ -105,7 +105,7 @@ body {
     height: 600px;
 }
 
-.c-interest__title {
+.c-interest__main-title {
     color: var(--color-text-darker);
     font-size: 2rem;
 }
@@ -142,17 +142,18 @@ body {
     --background: -webkit-linear-gradient(top, rgba(255,255,255,0), var(--color-blue-4));
 }
 
-.c-interest__container__image {
+.c-interest__image {
     position: relative;
     z-index: -1;
 }
 
-.c-interest__container__title {
+.c-interest__title {
     position: absolute;
     margin-bottom: 50px;
+    color: var(--color-light);
 }
 
-.c-interest__container__text {
+.c-interest__text {
     position: absolute;
 }
 
