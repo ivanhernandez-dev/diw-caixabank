@@ -273,7 +273,7 @@ body {
 }
 
 .c-needs__card{
-    font-family: 'Open Sans';
+    font-family: var(--font-stack);
     font-size: 16px;
 
     display:flex;
