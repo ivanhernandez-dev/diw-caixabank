@@ -185,10 +185,15 @@ body {
     object-fit: cover;
 }
 
-.c-card-info__link{
+.c-link{
     font-family: var(--font-stack);
     color: var(--color-blue-4);
     font-size: 16px;
+    text-decoration: none;
+}
+
+.c-link--underline{
+    text-decoration: underline;
 }
 
 .c-info-cards{
@@ -281,11 +286,6 @@ body {
     padding: 10px;
     box-shadow: 1px 5px 1px 1px var(--color-box-shadow);
     border-radius: 6px;
-}
-
-.c-button{
-    color: var(--color-blue-4);
-    text-decoration: none;
 }
 
 /* .c-title{
